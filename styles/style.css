@@ -3,7 +3,7 @@ body {
 }
 
 .main {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.6;
   width: 500px;
   height: 250px;
@@ -27,6 +27,6 @@ body {
 }
 
 .main h1 {
-  color: #ff2200;
+  color: #f20;
   font-weight: 800;
 }
