@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/background.avif);
+  background-image: url("../images/background.avif");
 }
 
 .main {
