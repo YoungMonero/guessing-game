@@ -1,1 +1,32 @@
+body {
+  background-image: url(../images/background.avif);
+}
 
+.main {
+  background-color: #ffffff;
+  opacity: 0.6;
+  width: 500px;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 5px #00e5ff;
+}
+
+.main button {
+  padding: 12px;
+  width: 90px;
+  border-radius: 30px;
+  border: none;
+  background-color: blueviolet;
+  box-shadow: 0.5px 0.5px 6px 6px #00e5ff;
+  margin-top: 20px;
+}
+
+.main h1 {
+  color: #ff2200;
+  font-weight: 800;
+}
