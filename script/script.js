@@ -4,11 +4,11 @@ let secretNumber = 42;
 let attempts = 0;
 
 // References to elements
-const guessInput = document.getElementById("guessInput");
-const guessButton = document.getElementById("guessButton");
+const guessInput = document.getElementById("guessinput");
+const guessButton = document.getElementById("guessbutton");
 const feedback = document.getElementById("feedback");
 const attemptsDisplay = document.getElementById("attempts");
-const restartButton = document.getElementById("restartButton");
+const restartButton = document.getElementById("restartbutton");
 
 // Guess function
 guessButton.addEventListener("click", () => {
