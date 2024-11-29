@@ -32,10 +32,10 @@ guessButton.addEventListener('click', () => {
 
   attemptsDisplay.textContent = `Attempts: ${attempts}`
   guessInput.value = ''
-});
+})
 
 // Restart function
-  restartButton.addEventListener('click', () => {
+restartButton.addEventListener('click', () => {
   attempts = 0
   feedback.textContent = ''
   attemptsDisplay.textContent = ''
