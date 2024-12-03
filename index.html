@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-  
+    <div class="game-container">
+      <h1>Guess the Number</h1>
+      <p>I'm thinking of a number between 1 and 100. Can you guess it?</p>
+      <input
+        type="number"
+        id="guessinput"
+        placeholder="Enter your guess"
+        min="1"
+        max="100"
+      />
+      <button id="guessbutton">Guess</button>
+      <p id="feedback"></p>
+      <p id="attempts"></p>
+      <button id="restartbutton" style="display: none">Play Again</button>
+    </div>
+    <script src="./script/script.js"></script>
   </body>
 </html>
