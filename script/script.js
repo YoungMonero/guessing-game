@@ -1,6 +1,6 @@
 // script.js
 
-secretNumber = Math.floor(Math.random() * 100) + 1
+const secretNumber = Math.floor(Math.random() * 100) + 1
 let attempts = 0
 
 // References to elements
@@ -27,8 +27,7 @@ guessButton.addEventListener('click', () => {
     guessButton.disabled = true
     restartButton.style.display = 'inline-block'
   } else if (userGuess < secretNumber) {
-
-    feedback.textContent =  '😜 Too Low!'
+    feedback.textContent = '😜 Too Low!'
     feedback.style.color = 'blue'
   } else {
     feedback.textContent = '😝 Too High!'
@@ -43,12 +42,10 @@ guessButton.addEventListener('click', () => {
     guessButton.disabled = true
     restartButton.style.display = 'inline-block'
   }
-    
 })
-
 // Restart function
 restartButton.addEventListener('click', () => {
-  secretNumber = Math.floor(Math.random() * 100) + 1;
+  secretNumber = Math.floor(Math.random() * 100) + 1
   attempts = 0
   feedback.textContent = ''
   attemptsDisplay.textContent = ''
